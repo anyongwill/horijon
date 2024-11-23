@@ -1,0 +1,14 @@
+// src/components/Footer/Footer.scss
+@import '../../styles/global';
+
+.footer {
+  height: $footer-height;
+  @include flex-center;
+  padding: 0 $spacing-lg;
+
+  p {
+    font-family: $font-secondary;
+    font-size: $font-size-tiny;
+    color: $text-color;
+  }
+}

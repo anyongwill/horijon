@@ -1,0 +1,63 @@
+// src/components/Header/Header.scss
+@import '../../styles/global';
+
+.header {
+  height: $header-height;
+  padding: 0 $spacing-lg;
+  display: flex;                 // Changed from @include flex-center
+  justify-content: space-between;
+  align-items: center;          // Added to vertically center items
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  
+  h1 {
+    font-family: $font-primary;
+    font-size: $font-size-small;
+    font-weight: $font-weight-normal;
+    margin: 0;                  // Added to remove default margin
+    padding: 0;                 // Added to remove default padding
+    line-height: 1;            // Added to ensure text aligns properly
+  }
+
+  h1 a {
+    text-decoration: none;
+    color: $text-color;
+    display: block;            // Added to ensure link takes full height
+  }
+
+  nav {
+    display: flex;             // Added to ensure nav aligns properly
+    align-items: center;       // Added to vertically center nav items
+    
+    ul {
+      display: flex;
+      list-style: none;
+      gap: $spacing-lg;
+      margin: 0;              // Added to remove default margin
+      padding: 0;             // Added to remove default padding
+
+      li {
+        font-family: $font-primary;
+        font-size: $font-size-small;
+        font-weight: $font-weight-normal;
+        display: flex;         // Added to ensure consistent alignment
+        align-items: center;   // Added to vertically center text
+      }
+
+      a {
+        color: $text-color;
+        text-decoration: none;
+        transition: color 0.3s ease;
+        display: block;        // Added to ensure link takes full height
+        line-height: 1;       // Added to match h1 line height
+        
+        &:hover {
+          color: $secondary-color;
+        }
+      }
+    }
+  }
+}

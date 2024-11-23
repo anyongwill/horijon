@@ -1,0 +1,101 @@
+@import '../../../styles/global';
+
+.contact {
+  @include section-padding;
+  background-color: $background-color;
+
+  &__detail {
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 80px;
+    padding: 0 100px;
+    max-width: 1200px;
+    
+    @include tablet {
+      padding: 0 40px;
+      margin-bottom: 60px;
+    }
+
+    @include mobile {
+      padding: 0 20px;
+      margin-bottom: 40px;
+    }
+    
+    h3 {
+      font-size: $font-size-small;
+      font-weight: $font-weight-normal;
+      margin: 0px;
+      text-align: center;
+      text-decoration: none;
+
+      @include mobile {
+        font-size: $font-size-tiny;
+      }
+    }
+  }
+  
+  &__grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: $spacing-md;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 100px;
+    max-width: 1200px;
+
+    @include tablet {
+      grid-template-columns: repeat(2, 1fr);
+      padding: 0 40px;
+      gap: $spacing-sm;
+    }
+
+    @include mobile {
+      grid-template-columns: 1fr;
+      padding: 0 20px;
+      gap: $spacing-sm;
+    }
+
+    &-item {
+      border: 1px solid white;
+      padding: $spacing-sm $spacing-md $spacing-md $spacing-sm;
+      text-decoration: none;
+      color: $text-color;
+      transition: all 0.3s ease;
+      font-family: $font-primary;
+
+      @include mobile {
+        padding: $spacing-sm;
+      }
+
+      .content {
+        h3 {
+          font-size: $font-size-small;
+          font-weight: $font-weight-normal;
+          margin: 0px;
+          text-align: start;
+          text-decoration: none;
+          transition: text-decoration 0.3s ease;
+
+          @include mobile {
+            font-size: $font-size-tiny;
+          }
+        }
+      }
+
+      &:hover {
+        border-color: transparent;
+        .content h3 {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+
+  @include mobile {
+    padding: 4rem $spacing-sm;
+  }
+
+  @include tablet {
+    padding: 5rem $spacing-md;
+  }
+}

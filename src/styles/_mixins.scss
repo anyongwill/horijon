@@ -1,0 +1,57 @@
+// src/styles/_mixins.scss
+@mixin flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  @mixin heading-style {
+    font-family: $font-primary;
+    font-weight: $font-weight-bold;
+    line-height: 1.2;
+    margin-bottom: $spacing-md;
+  }
+  
+  @mixin body-text {
+    font-family: $font-secondary;
+    font-weight: $font-weight-normal;
+    line-height: $line-height-base;
+  }
+  
+  @mixin section-padding {
+    padding: 6rem $spacing-lg;
+    min-height: 100vh;
+    width: 100%;
+  }
+
+  // Add responsive mixins
+  @mixin mobile {
+    @media (max-width: #{$breakpoint-tablet - 1px}) {
+      @content;
+    }
+  }
+  
+  @mixin tablet {
+    @media (min-width: #{$breakpoint-tablet}) and (max-width: #{$breakpoint-desktop - 1px}) {
+      @content;
+    }
+  }
+  
+  @mixin desktop {
+    @media (min-width: #{$breakpoint-desktop}) {
+      @content;
+    }
+  }
+
+  @mixin container {
+    width: 100%;
+    max-width: $container-max-width;
+    padding-left: $container-padding;
+    padding-right: $container-padding;
+    margin: 0 auto;
+    
+    @include mobile {
+      padding-left: $spacing-md;
+      padding-right: $spacing-md;
+    }
+  }

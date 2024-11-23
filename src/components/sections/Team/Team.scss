@@ -1,0 +1,61 @@
+@import '../../../styles/global';
+
+.team {
+  @include section-padding;
+  background-color: $background-color;
+  
+  @include mobile {
+    padding: 4rem $spacing-sm;
+  }
+
+  @include tablet {
+    padding: 5rem $spacing-md;
+  }
+  
+  h2 {
+    width: 100%;
+    font-size: $font-size-h2;
+    font-weight: $font-weight-bold;
+    text-transform: uppercase;
+    margin-bottom: $spacing-lg;
+    line-height: 1.2;
+
+    @include tablet {
+      font-size: $font-size-h3;
+    }
+
+    @include mobile {
+      font-size: $font-size-h4;
+      margin-bottom: $spacing-md;
+    }
+  }
+
+  .team-grid {
+    display: grid;
+    gap: $spacing-lg;
+    width: 100%;
+    max-width: 1200px;
+    margin: 80px auto;
+    margin-bottom: 10px;
+    padding: 0 100px;
+    
+    @include desktop {
+      grid-template-columns: repeat(3, 1fr);
+      gap: $spacing-lg * 2;
+    }
+    
+    @include tablet {
+      grid-template-columns: repeat(2, 1fr);
+      gap: $spacing-lg;
+      padding: 0 40px;
+      margin: 60px auto 10px;
+    }
+    
+    @include mobile {
+      grid-template-columns: 1fr;
+      gap: $spacing-md;
+      padding: 0 20px;
+      margin: 40px auto 10px;
+    }
+  }
+}

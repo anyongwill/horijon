@@ -1,0 +1,29 @@
+// src/components/Main/Main.scss
+@import '../../styles/global';
+
+.main {
+  min-height: calc(100vh - #{$header-height} - #{$footer-height});
+  margin-top: $header-height;
+  padding: $spacing-lg;
+  
+  section {
+    @include flex-center;
+    flex-direction: column;
+    min-height: calc(100vh - #{$header-height} - #{$footer-height});
+    text-align: center;
+    gap: $spacing-md;
+
+    h2 {
+      font-family: $font-primary;
+      font-size: $font-size-h2;
+      font-weight: $font-weight-bold;
+      margin-bottom: $spacing-md;
+    }
+
+    p {
+      @include body-text;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+  }
+}
