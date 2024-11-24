@@ -9,13 +9,13 @@ const Team = () => {
       image: "./Images/Team Headshot/Will.jpg",
       title: "Will Kwon",
       subtitle: "Leader",
-      description: "Entrepreneur with experience across fashion, textile, and media. Ex-McKinsey Associate Partner in Amsterdam, San Francisco, and Seoul. CFA (Chartered Financial Analyst) Charterholder. MPA from Harvard Kennedy School. BA in Statistics and Int'l Studies from Yonsei University."
+      description: "Entrepreneur with experience across fashion, textile, and journalism. McKinsey Associate Partner in Amsterdam, San Francisco, and Seoul. CFA (Chartered Financial Analyst) Charterholder. World Economic Forum's GSC Seoul hub leader. MPA from Harvard Kennedy School. BA in Applied Statistics and International Studies from Yonsei University."
     },
     {
       image: "./Images/Team Headshot/Jaeo.jpg",
       title: "Jaeo Shin",
       subtitle: "Engineer",
-      description: "Software Engineer and Full-stack Developer. Entrepreneur experience in fashion e-commerce and logistics. Ex-engineer at Hyundai Heavy Industry. MS in Computer Science and BS in Mechanical Engineering from Busan National University."
+      description: "Software Engineer and Back-end Developer. Entrepreneur experience in fashion e-commerce and logistics. Ex-engineer at Hyundai Heavy Industry. MS in Computer Science and BS in Mechanical Engineering from Busan National University."
     },
     {
       image: "./Images/Team Headshot/Kelvin 2.jpg",
@@ -27,7 +27,7 @@ const Team = () => {
       image: "./Images/Team Headshot/Gabby.jpg",
       title: "Gabby Vukomanovic",
       subtitle: "Engineer",
-      description: "Front-end application developer. Computer Science major at Brandies University."
+      description: "Front-end application developer. Computer Science major at Brandies University (Dean's list, multiple awards). Led development of multiple 3D/Gaming projects"
     },
     {
       image: "./Images/Team Headshot/Delanie.jpg",
