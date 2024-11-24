@@ -36,10 +36,10 @@ const Team = () => {
       description: "Illustrator and Graphic Designer. Animation major at Massachussets College of Art and Design (Honor student, multiple awards). Leader of MassArt Game Design Club."
     },
     {
-        image: "./Images/Team Headshot/Masaki.jpg", 
-        title: "Masaki Shiraishi",
-        subtitle: "Analyst",
-        description: "Marketer and Researcher. Harvard Graduate School of Education. Publication reviewer at University of Minnesota. BA in Linguistics from University of Minnesota (High distinction)"
+      image: "./Images/Team Headshot/Masaki.jpg", 
+      title: "Masaki Shiraishi",
+      subtitle: "Analyst",
+      description: "Marketer and Researcher. Harvard Graduate School of Education. Publication reviewer at University of Minnesota. BA in Linguistics from University of Minnesota (High distinction)"
     },
   ];
 
