@@ -9,25 +9,25 @@ const Team = () => {
       image: "./Images/Team Headshot/Will.jpg",
       title: "Will Kwon",
       subtitle: "Leader",
-      description: "Entrepreneur with experience across fashion branding, textile production, and non-profit. Ex-McKinsey Associate Partner in Amsterdam, San Francisco, Seoul. Chartered Financial Analyst (CFA). MPA from Harvard Kennedy School. BA in Statistics and Int'l Studies from Yonsei University."
+      description: "Entrepreneur with experience across fashion, textile, and media. Ex-McKinsey Associate Partner in Amsterdam, San Francisco, and Seoul. CFA (Chartered Financial Analyst) Charterholder. MPA from Harvard Kennedy School. BA in Statistics and Int'l Studies from Yonsei University."
     },
     {
       image: "./Images/Team Headshot/Jaeo.jpg",
       title: "Jaeo Shin",
       subtitle: "Engineer",
-      description: "SW Engineer and Full-stack Developer. Entrepreneur experience in fashion e-commerce and logistics. Researcher at Hyundai Heavy Industry. MS in Computer and BS in Mechanical engineering from Busan National University."
-    },
-    {
-      image: "./Images/Team Headshot/Gabby.jpg",
-      title: "Gabby Vukomanovic",
-      subtitle: "Engineer",
-      description: "Front-end application developer. Computer Science major at Brandies University."
+      description: "Software Engineer and Full-stack Developer. Entrepreneur experience in fashion e-commerce and logistics. Ex-engineer at Hyundai Heavy Industry. MS in Computer Science and BS in Mechanical Engineering from Busan National University."
     },
     {
       image: "./Images/Team Headshot/Kelvin 2.jpg",
       title: "Kelvin Hu",
       subtitle: "Designer",
       description: "Designer and Architect. Entrepreneur experience in 3D/Metaverse. Work experience in fashion and real estate. Harvard Graduate School of Design. BA in Architecture Pratt Institute with minor in Museum and Gallery Practices."
+    },
+    {
+      image: "./Images/Team Headshot/Gabby.jpg",
+      title: "Gabby Vukomanovic",
+      subtitle: "Engineer",
+      description: "Front-end application developer. Computer Science major at Brandies University."
     },
     {
       image: "./Images/Team Headshot/Delanie.jpg",
