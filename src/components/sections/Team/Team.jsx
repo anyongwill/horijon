@@ -30,7 +30,7 @@ const Team = () => {
       description: "Front-end application developer. Computer Science major at Brandies University (Dean's list, multiple awards). Led development of multiple 3D/Gaming projects"
     },
     {
-      image: "./Images/Team Headshot/Delanie.jpg",
+      image: "./Images/Team Headshot/Delanie.png",
       title: "Delanie Pon",
       subtitle: "Designer",
       description: "Illustrator and Graphic Designer. Animation major at Massachussets College of Art and Design (Honor student, multiple awards). Leader of MassArt Game Design Club."
