@@ -33,13 +33,13 @@
 
     @include tablet {
       gap: $spacing-sm;
-      padding: $spacing-sm 0;
+      padding: $spacing-md 0;
     }
 
     @include mobile {
       flex-direction: column;
       gap: 4px;
-      padding: 8px 0;
+      padding: $spacing-md 0;
     }
   }
 
@@ -57,11 +57,11 @@
     }
 
     @include tablet {
-      font-size: 24px;
+      font-size: $font-size-base;
     }
 
     @include mobile {
-      font-size: 20px;
+      font-size: $font-size-base;
       margin-bottom: 0;
     }
   }
@@ -80,11 +80,11 @@
     }
 
     @include tablet {
-      font-size: 24px;
+      font-size: $font-size-base;
     }
 
     @include mobile {
-      font-size: 20px;
+      font-size: $font-size-base;
       text-align: left;
       margin-top: 0;
     }

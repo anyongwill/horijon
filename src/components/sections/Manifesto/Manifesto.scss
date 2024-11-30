@@ -126,7 +126,7 @@
 
   &__text-overlay {
     width: 100%;
-    background-color: white;
+    background-color: #F8F8F8;
     padding: 80px 20px;
     margin-top: -4px;
     
@@ -149,7 +149,7 @@
 
       @include tablet {
         width: 85%;
-        font-size: $font-size-h2;
+        font-size: $font-size-h3;
         margin: 40px auto;
       }
 

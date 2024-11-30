@@ -34,30 +34,38 @@
 
   .team-grid {
     display: grid;
-    gap: $spacing-lg;
     width: 100%;
     max-width: 1200px;
-    margin: 80px auto;
-    margin-bottom: 10px;
-    padding: 0 100px;
+    margin: 0 auto;
+    padding: 0 1rem; /* Use relative units */
+    box-sizing: border-box; /* Ensure padding is included in width */
     
-    @include desktop {
-      grid-template-columns: repeat(3, 1fr);
-      gap: $spacing-lg * 2;
-    }
+    /* Base styles (mobile first) */
+    grid-template-columns: minmax(0, 1fr); /* Prevent overflow */
+    gap: 1.5rem;
+    margin-top: 2.5rem;
+    margin-bottom: 0.625rem;
     
+    /* Tablet breakpoint */
     @include tablet {
-      grid-template-columns: repeat(2, 1fr);
-      gap: $spacing-lg;
-      padding: 0 40px;
-      margin: 60px auto 10px;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 2rem;
+      padding: 0 2.5rem;
+      margin-top: 3.75rem;
     }
     
-    @include mobile {
-      grid-template-columns: 1fr;
-      gap: $spacing-md;
-      padding: 0 20px;
-      margin: 40px auto 10px;
+    /* Desktop breakpoint */
+    @include desktop {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 2.5rem;
+      padding: 0 6.25rem;
+      margin-top: 5rem;
+    }
+    
+    /* Prevent grid item overflow */
+    > * {
+      min-width: 0;
+      width: 100%;
     }
   }
 }
