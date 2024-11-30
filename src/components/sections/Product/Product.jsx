@@ -5,9 +5,9 @@ const Product = () => {
   return (
     <section id="product" className="product">
       <div className="product__content">
-        <h2>"I saw the angel in the marble and carved until I set him free"</h2>
+        <h2>OUR PURPOSE AND VALUES</h2>
         
-        <div className="product__video">
+        {/* <div className="product__video">
           <iframe 
             src="https://player.vimeo.com/video/412671139"
             frameBorder="0"
@@ -15,10 +15,18 @@ const Product = () => {
             allowFullScreen
             title="Vimeo Player"
           />
-        </div>
+        </div> */}
+
+        {/* <div className="product__hero">
+          <img 
+            src="./Images/steps.jpg" 
+            alt="Manifesto Hero" 
+            className="manifesto__hero-image"
+          />
+        </div> */}
 
         <div className="product__text">
-          <h3>The uniqueness of a work of art is inseparable from its being imbedded in the fabric of tradition. This tradition itself is thoroughly alive and extremely changeable. An ancient statue of Venus, for example, stood in a different traditional context with the Greeks, who made it an object of veneration, than with the clerics of the Middle Ages, who viewed it as an ominous idol. Both of them, however, were equally confronted with its uniqueness, that is, its aura. Originally the contextual integration of art in tradition found its expression in the cult. We know that the earliest art works originated in the service of a ritual—first the magical, then the religious kind. It is significant that the existence of the work of art with reference to its aura is never entirely separated from its ritual function. In other words, the unique value of the "authentic" work of art has its basis in ritual, the location of its original use value. This ritualistic basis, however remote, is still recognizable as secularized ritual even in the most profane forms of the cult of beauty. The secular cult of beauty, developed during the Renaissance and prevailing for three centuries, clearly showed that ritualistic basis in its decline and the first deep crisis which befell it. With the advent of the first truly revolutionary means of reproduction, photography, simultaneously with the rise of socialism, art sensed the approaching crisis which has become evident a century later. At the time, art reacted with the doctrine of l'art pour l'art, that is, with a theology of art. This gave rise to what might be called a negative theology in the form of the idea of 'pure' art, which not only denied any social function of art but also any categorizing by subject matter.</h3>
+          <h3>We are driven by a vision to enrich humanity’s future through the transformative power of art and design. Our mission is to create a world where creativity flourishes, empowering artists and designers to inspire, innovate, and make meaningful contributions that transcend boundaries. By providing a universal platform, we offer the tools, spaces, and opportunities needed for creators to bring their visions to life, leaving lasting imprints of emotion, passion, and progress. As guardians of creativity, we are dedicated to protecting and nurturing artistic talent, ensuring that innovation and design thrive for generations to come. At the heart of our purpose are the values of focus, integrity, and excellence—upholding precision and an unwavering commitment to fostering a culture of creativity and reaching the highest standards in everything we do. Through these efforts, we aim to inspire a brighter tomorrow for all.</h3>
         </div>
       </div>
     </section>

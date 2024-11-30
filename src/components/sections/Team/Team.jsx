@@ -6,7 +6,7 @@ import ProfileCard from '../../ProfileCard/ProfileCard';
 const Team = () => {
   const teamMembers = [
     {
-      image: "./Images/Team Headshot/Will.jpg",
+      image: "./Images/Team Headshot/Will4.jpg",
       title: "Will Kwon",
       subtitle: "Leader",
       description: "Entrepreneur with experience across fashion, textile, and journalism. McKinsey Associate Partner in Amsterdam, San Francisco, and Seoul. CFA (Chartered Financial Analyst) Charterholder. World Economic Forum's GSC Seoul hub leader. MPA from Harvard Kennedy School. BA in Applied Statistics and International Studies from Yonsei University."

@@ -33,10 +33,10 @@ const Contact = () => {
     <section id="contact" className="contact">
       <div className="contact__detail">
         <h3>
-          [EMAIL]
+          [CONTACT]
         </h3>
         <h3>
-          TEAM@WILLKOMMEL.COM
+          WILL.KWON@WILLKOMMEL.COM
         </h3>
       </div>
       
